@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="259.0" prefWidth="324.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerPodcastCreation">
+   <children>
+      <Label layoutX="114.0" layoutY="28.0" text="Podcast Creation">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <TextField fx:id="podcastName" layoutX="78.0" layoutY="70.0" prefHeight="25.0" prefWidth="168.0" promptText="Name of the podcast" />
+      <Button fx:id="doneButton" layoutX="144.0" layoutY="212.0" mnemonicParsing="false" text="Done" />
+      <ComboBox fx:id="artists" layoutX="87.0" layoutY="119.0" prefWidth="150.0" promptText="Artist" />
+      <ComboBox fx:id="audio" layoutX="87.0" layoutY="165.0" prefHeight="25.0" prefWidth="150.0" promptText="Audio" />
+   </children>
+</AnchorPane>

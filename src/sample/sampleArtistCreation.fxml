@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="360.0" prefWidth="324.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerArtistCreation">
+   <children>
+      <Label layoutX="117.0" layoutY="27.0" text="Artist Creation">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <TextField fx:id="realName" layoutX="78.0" layoutY="70.0" prefHeight="25.0" prefWidth="168.0" promptText="Real Name" />
+      <TextField fx:id="description" alignment="TOP_LEFT" layoutX="78.0" layoutY="224.0" prefHeight="65.0" prefWidth="168.0" promptText="Description" />
+      <TextField fx:id="artisticName" layoutX="78.0" layoutY="168.0" prefHeight="25.0" prefWidth="168.0" promptText="Artistic Name" />
+      <TextField fx:id="realLastName" layoutX="78.0" layoutY="118.0" prefHeight="25.0" prefWidth="168.0" promptText="Real Last Name" />
+      <Button fx:id="doneButton" layoutX="135.0" layoutY="310.0" mnemonicParsing="false" text="Done" />
+   </children>
+</AnchorPane>

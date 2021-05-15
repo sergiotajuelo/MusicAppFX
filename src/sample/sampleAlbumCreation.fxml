@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="444.0" prefWidth="324.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerAlbumCreation">
+   <children>
+      <Label layoutX="115.0" layoutY="24.0" text="Album Creation">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font></Label>
+      <TextField fx:id="albumName" layoutX="78.0" layoutY="57.0" prefHeight="25.0" prefWidth="168.0" promptText="Name of the album" />
+      <Button fx:id="doneButtonSong" layoutX="140.0" layoutY="397.0" mnemonicParsing="false" text="Done" />
+      <ComboBox fx:id="artists" layoutX="87.0" layoutY="99.0" prefWidth="150.0" promptText="Artist" />
+      <ListView fx:id="songsListView" layoutX="63.0" layoutY="144.0" prefHeight="238.0" prefWidth="200.0" />
+      <Button fx:id="okButton" layoutX="246.0" layoutY="99.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="37.0" text="OK" />
+   </children>
+</AnchorPane>
