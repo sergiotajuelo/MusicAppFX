@@ -1,3 +1,2 @@
-Song;Blinding Lights;The Weeknd;Abel;Tesfaye;terds;src/audio/blindingLights.mp3
-Album;The WIld Project;The Weeknd;Abel;Tesfaye;terds;Blinding Lights,src/audio/blindingLights.mp3,
-Podcast;The Wild Project;The Weeknd;Abel;Tesfaye;terds;src/audio/blindingLights.mp3
+Song;Blinding Lights;The Weeknd;Abel;Tesfaye;Canada guy;src/audio/blindingLights.mp3
+Album;After Hours;The Weeknd;Abel;Tesfaye;Canada guy;Blinding Lights,src/audio/blindingLights.mp3,
